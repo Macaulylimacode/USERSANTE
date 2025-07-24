@@ -59,7 +59,7 @@ banco-sistema
 
 ```bash
 # clonar repositório
-git clone https://github.com/Macaulylimacode/mlsummary
+git clone https://github.com/Macaulylimacode/USERSANTE.git
 
 # entrar na pasta do projeto
 cd USERSANTE
@@ -67,3 +67,82 @@ cd USERSANTE
 # executar o projeto
 ./mvnw spring-boot:run
 ```
+
+# 🖥️ Frontend - React (pasta /frontend)
+
+Tecnologias:
+React 18
+
+React Router DOM
+
+TailwindCSS
+
+Axios para requisições HTTP
+
+Telas:
+Login
+
+Cadastro
+
+Painel do Usuário
+
+Painel do Administrador
+
+Pagamento e Extrato
+
+# 🛢️ Banco de Dados - PostgreSQL (pasta /db/init.sql)
+
+Contém as tabelas:
+
+Usuarios
+
+Contas
+
+Pagamentos
+
+Extratos
+
+Autenticacoes
+
+AdministradorCentral
+
+# ⚖️ LGPD Aplicada
+
+Senhas criptografadas com bcrypt
+
+Logs de autenticação
+
+Apenas o Administrador Central pode acessar dados sensíveis
+
+Tokens JWT com expiração
+
+Nenhuma informação pessoal exposta sem permissão
+
+# ✅ Funcionalidades em Destaque
+
+Login seguro com token
+
+Usuário consulta saldo e faz pagamento
+
+Admin visualiza todos os usuários e relatórios
+
+Arquitetura segura com separação clara de camadas
+
+Painel moderno e responsivo
+
+# 🛠️ To-do Futuro
+
+Envio de notificações por e-mail
+
+Recuperação de senha
+
+Dupla autenticação (2FA)
+
+Relatórios em PDF
+
+👨‍💻 Desenvolvido por
+
+Macauly Lima
+
+
+[![linkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/macauly-lima-75984a269)
