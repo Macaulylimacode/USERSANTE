@@ -1,0 +1,21 @@
+Lógica de Acesso
+Para o Usuário comum
+Autenticação obrigatória via Autenticacoes
+
+Somente poderá consultar suas próprias contas, pagamentos e extratos
+
+Só poderá acessar o sistema após dar consentimento LGPD
+
+Para o Administrador Principal
+Autenticação via AdministradorPrincipal
+
+Pode acessar todos os dados de qualquer cliente
+
+Toda consulta é registrada em LogsAcessoDados com finalidade
+
+✅ Pronto para os próximos passos:
+Gerar um modelo ER visual com LGPD
+
+Criar um painel de interface gráfica com login para ADM e usuários
+
+Simular um dashboard com relatórios do ADM
